@@ -25,7 +25,7 @@
         int a = 0;
         if((line = in.readLine()) != null)
             a = Integer.parseInt(line)+1;
-	    console.log((line = in.readLine())+" testing");
+	    console.log(in+" testing");
         else
             a = 1;   
         PrintWriter pw = new PrintWriter(new FileOutputStream("https://workflow101.github.io/MatiesSport.io//results.txt"));
@@ -33,7 +33,7 @@
         pw.println(a);
         pw.close();
         out.println(a);
-	console.log((line = in.readLine())+" testing");
+	 console.log(in+" testing2");
     }
     catch(Exception e)
     {
@@ -70,7 +70,7 @@ function App(){
       <App />,
       rootElement
     )
-
+ console.log(in+" testing3");
 </script>
 
 </body>
