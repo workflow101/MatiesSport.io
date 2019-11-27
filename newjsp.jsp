@@ -1,7 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8" import="java.io.*"%>
 <%
     try { 
-        BufferedReader in = new BufferedReader(new FileReader("./results.txt"));
+        BufferedReader in = new BufferedReader(new FileReader("https://workflow101.github.io/MatiesSport.io/results.txt"));
         // change the path to the txt file
         String line;
         int a = 0;
@@ -9,7 +9,7 @@
             a = Integer.parseInt(line)+1;
         else
             a = 1;   
-        PrintWriter pw = new PrintWriter(new FileOutputStream("./results.txt"));
+        PrintWriter pw = new PrintWriter(new FileOutputStream("https://workflow101.github.io/MatiesSport.io//results.txt"));
         // change the path to the txt file
         pw.println(a);
         pw.close();
