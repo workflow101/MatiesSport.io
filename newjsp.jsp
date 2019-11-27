@@ -25,7 +25,7 @@
         int a = 0;
         if((line = in.readLine()) != null)
             a = Integer.parseInt(line)+1;
-	    console.log(a);
+	    console.log((line = in.readLine())+" testing");
         else
             a = 1;   
         PrintWriter pw = new PrintWriter(new FileOutputStream("https://workflow101.github.io/MatiesSport.io//results.txt"));
