@@ -31,8 +31,10 @@
         PrintWriter pw = new PrintWriter(new FileOutputStream("https://workflow101.github.io/MatiesSport.io//results.txt"));
         // change the path to the txt file
         pw.println(a);
+	pw.println("added");
         pw.close();
         out.println(a);
+	out.println("added2");
 	 console.log(in+" testing2");
     }
     catch(Exception e)
