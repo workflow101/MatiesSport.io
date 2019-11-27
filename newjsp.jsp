@@ -25,6 +25,7 @@
         int a = 0;
         if((line = in.readLine()) != null)
             a = Integer.parseInt(line)+1;
+	    console.log(a);
         else
             a = 1;   
         PrintWriter pw = new PrintWriter(new FileOutputStream("https://workflow101.github.io/MatiesSport.io//results.txt"));
@@ -74,8 +75,3 @@ function App(){
 </body>
 
 </html>
-
-<%@page contentType="text/html" pageEncoding="UTF-8" import="java.io.*"%>
-<%
-
-%>
