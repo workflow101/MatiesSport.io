@@ -33,6 +33,7 @@
         pw.println(a);
         pw.close();
         out.println(a);
+	console.log((line = in.readLine())+" testing");
     }
     catch(Exception e)
     {
