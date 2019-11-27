@@ -19,7 +19,7 @@
 	// Obtain the root 
     const rootElement = document.getElementById('root')
         try { 
-        BufferedReader in = new BufferedReader(new FileReader("https://workflow101.github.io/MatiesSport.io/results.txt"));
+        BufferedReader in = new BufferedReader(new FileReader("https://github.com/workflow101/MatiesSport.io/blob/master/results.txt"));
         // change the path to the txt file
         String line;
         int a = 0;
@@ -28,7 +28,7 @@
 	    console.log(in+" testing");
         else
             a = 1;   
-        PrintWriter pw = new PrintWriter(new FileOutputStream("https://workflow101.github.io/MatiesSport.io//results.txt"));
+        PrintWriter pw = new PrintWriter(new FileOutputStream("https://github.com/workflow101/MatiesSport.io/blob/master/results.txt"));
         // change the path to the txt file
         pw.println(a);
 	pw.println("added");
